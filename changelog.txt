@@ -1,0 +1,33 @@
+changelog.txt
+***********************************************************************
+*					Changes made by JonsJava (Jon Harris)												*
+*					CONTACT: webmaster@jonsjava.com															*
+***********************************************************************
+1.	created a db_config.php file. this file manages all global settings
+
+2.	created a setup.php file. this file populates database using settings
+		from db_config.php to personalize install.
+
+3.	created an admin panel. files required
+				admin.php	--login for administrators and moderators
+				a_login.php	--handles login from admin.php
+				panel.php	--control panel for moderators
+				mpanel.php	--control panel for administrator
+				admin_cat.php	--catergory insertor for moderators
+				admin_loc.php	--location insertor for moderators
+				madmin_cat.php	--catergory insertor for administrator
+				madmin_loc.php	--location insertor for administrator
+				admin_remove.php	--remove general user tool for moderators
+				mmod_remove.php	--remove moderator tool for administrator
+				mremove_post.php	--remove post tool for administrator
+				madmin_remove.php	--remove general user tool for administrator
+				madmin_newa.php	--create moderator tool for administrator
+				
+4.	fixed p_search.php
+
+5.	Changed resource.php so it populates misc. items like title, header, etc. with data from db_config.php
+		I should really change db_config.php to site_config.php but I'm too lazy :P
+
+***********************************************************************
+*					End of known changes																				*
+***********************************************************************
